@@ -1,0 +1,18 @@
+.navbar{
+    background-color: #393e46;
+}
+.navbar a{
+    color: white;
+    margin-inline: 10px;
+}
+.navbar img {
+    width: 7%;
+    margin-left: 10px;
+}
+.activelinkcust{
+    background-color: #be3144;
+    border-radius: 5px 20px;
+}
+.logo{
+    font-family: cursive;
+}

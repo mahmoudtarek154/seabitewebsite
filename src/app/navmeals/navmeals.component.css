@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #be3144;
+}
+.navbar a{
+    margin-inline: 10px;
+    color: white;
+}
+.activlinkcustom{
+    background-color: #393e46;
+    color: rgb(198, 195, 195);
+    border-radius: 5px 20px;
+
+}

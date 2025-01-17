@@ -1,0 +1,17 @@
+
+<div class="row seafood container m-auto w-75 text-white">
+    @for (item of seafooditems; track $index) {
+    <div class="col-lg-4  col-md-6 py-5 ">
+
+    <div class="card pb-5  shadow-sm">
+        <img class="w-100" [src]=" item.strMealThumb  " alt="">
+      <div class="p-2">
+        <h3 class="my-4 text-black"> {{item.strMeal}}</h3>
+        <p class="fw-semibold text-black-50">Categort :  {{item.Desc}}</p>
+      </div>
+  
+    </div>
+   
+    </div>
+}
+</div>

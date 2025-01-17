@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg ">
+    <div class="container py-2">
+      <a class="navbar-brand logo" routerLink="home" >SEABITE <img src="/restaurant.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" routerLinkActive="activelinkcust" aria-current="page" routerLink="home" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="activelinkcust" routerLink="about" >About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="activelinkcust" routerLink="meals" >Meals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="activelinkcust"  routerLink="team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLinkActive="activelinkcust" routerLink="contact" >Contact</a>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>

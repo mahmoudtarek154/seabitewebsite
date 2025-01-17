@@ -1,0 +1,12 @@
+.maindiv{
+    background-color: #eeeeee;
+    border-bottom: 1px solid rgb(201, 199, 199);
+}
+.homeimg{
+    object-fit: cover;
+    width: 100%;
+    filter: drop-shadow(5px 5px 25px );
+}
+ i{
+    color:  #be3144;
+ }
